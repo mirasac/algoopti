@@ -8,7 +8,7 @@ The regular teacher of this course is Professor Braunstein. The course and [its 
 This repository exists just as an effective way to save the code while the exercises are being done, it is not meant for presenting them in a complete and nice way. Just the information sufficient for the resolution of problems are included.
 
 ## Repository structure
-Files related to a problem are contained in a directory with name `Problem n` where n is the number of the problem at the time of the creation of the directory. This numbering come from the problems list on professor's LaTeX notes, so it could go out of sync with the real numbering on the notes at any time. To provide consistency, the following list associates numbers to problems permanently and it is updated each time a new problem is inserted in the repository:
+Files related to a problem are contained in a directory with name `Problem_n` where n is the number of the problem at the time of the creation of the directory. This numbering come from the problems list on professor's LaTeX notes, so it could go out of sync with the real numbering on the notes at any time. To provide consistency, the following list associates numbers to problems permanently and it is updated each time a new problem is inserted in the repository:
 
 3. Sierpinski’s triangle
 
