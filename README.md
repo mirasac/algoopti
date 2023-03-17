@@ -11,6 +11,7 @@ This repository exists just as an effective way to save the code while the exerc
 Files related to a problem are contained in a directory with name `Problem_n` where n is the number of the problem at the time of the creation of the directory. This numbering come from the problems list on professor's LaTeX notes, so it could go out of sync with the real numbering on the notes at any time. To provide consistency, the following list associates numbers to problems permanently and it is updated each time a new problem is inserted in the repository:
 
 3. Sierpinski’s triangle
+35. Making a difference
 
 ## Programming environment
 During lesson code is written in Julia, but in this repository both Python and Julia codes are present (since I am new to Julia language).
