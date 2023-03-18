@@ -28,3 +28,4 @@ A possible road map could be the following:
 
 Log:
 - 20230318T1405 I am trying to put all the needed files in a subfolder of the repository, as opposed to what suggested in the tutorial. Moreover I am doing these tests in a branch which is not `main`, but I hope that the branch name makes no difference on Binder's internal working.
+- T1416 Binder allows to specify the branch (more generally, the reference in the repository history) and the path where the notebook should be loaded from.
