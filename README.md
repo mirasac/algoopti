@@ -19,3 +19,12 @@ During lesson code is written in Julia, but in this repository both Python and J
 My local environment is VS Code as visual text editor, equipped with the Julia extension.
 
 To be more flexible, I plan to use Julia in Google Colab. Some information [here](https://stackoverflow.com/questions/58270424/julia-in-google-colab) and [here](https://github.com/Dsantra92/Julia-on-Colab).
+A possible road map could be the following:
+1. create Jupyter notebook with some Julia code and save it on GitHub;
+2. test the notebook in Binder (cfr. [tutorial on the official site](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html)), to check that it works, is available on the Internet and as a fallback plan if Google Colab does not work;
+3. install Julia on the fly on a Google Colab session, cfr. references;
+4. check if the Julia environment on Google Colab works, test it also by loading the Jupyter notebook prepared at point 1;
+5. create a Jupyter notebook to automate the installation at the start of each session, cfr. references.
+
+Log:
+- 20230318T1405 I am trying to put all the needed files in a subfolder of the repository, as opposed to what suggested in the tutorial. Moreover I am doing these tests in a branch which is not `main`, but I hope that the branch name makes no difference on Binder's internal working.
