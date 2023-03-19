@@ -16,9 +16,10 @@ Files related to a problem are contained in a directory with name `Problem_n` wh
 ## Programming environment
 During lesson code is written in Julia, but in this repository both Python and Julia codes are present (since I am new to Julia language).
 
-My local environment is VS Code as visual text editor, equipped with the Julia extension.
+My local environment is VS Code as visual text editor. In case I use Julia, I choose version 1.6.7 since it is the [LTS release](https://julialang.org/downloads/#long_term_support_release).
 
-To be more flexible, I plan to use Julia in Google Colab. Some information [here](https://stackoverflow.com/questions/58270424/julia-in-google-colab) and [here](https://github.com/Dsantra92/Julia-on-Colab).
+To be more flexible, I plan to use Julia in Google Colab. Some information [here](https://stackoverflow.com/questions/58270424/julia-in-google-colab) and [here](https://github.com/Dsantra92/Julia-on-Colab). [Another reference](https://github.com/johnnychen94/colab-julia-bootstrap), explained better.
+
 A possible road map could be the following:
 1. create Jupyter notebook with some Julia code and save it on GitHub;
 2. test the notebook in Binder (cfr. [tutorial on the official site](https://the-turing-way.netlify.app/communication/binder/zero-to-binder.html)), to check that it works, is available on the Internet and as a fallback plan if Google Colab does not work [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mirasac/algoopti.git/test-julia);
@@ -31,3 +32,5 @@ Log:
 - T1416 Binder allows to specify the branch (more generally, the reference in the repository history) and the path where the notebook should be loaded from.
 - T1600 JL files are working in Binder, Jupyter notebook with Julia code inserted in the repository to proceed with point 1.
 - T1730 I discovered it is possible to pull files from GitHub to make them available in Binder after the session is started, without starting a new Binder session.
+- T1740 Loading the repo and using Julia files and notebook in Binder is feasible. The opposite operation, i.e. saving the changes done in Binder to Git, is more convoluted since it is necessary to download them locally first (to avoid privacy and security issues in a direct connection through Git).
+- T2358 In case of fallback to Binder, variable `JULIA_VERSION`in the notebooks must have the same value of key `julia` in section `[comp]` of file `Project.toml`.
