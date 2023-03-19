@@ -34,3 +34,4 @@ Log:
 - T1730 I discovered it is possible to pull files from GitHub to make them available in Binder after the session is started, without starting a new Binder session.
 - T1740 Loading the repo and using Julia files and notebook in Binder is feasible. The opposite operation, i.e. saving the changes done in Binder to Git, is more convoluted since it is necessary to download them locally first (to avoid privacy and security issues in a direct connection through Git).
 - T2358 In case of fallback to Binder, variable `JULIA_VERSION`in the notebooks must have the same value of key `julia` in section `[comp]` of file `Project.toml`.
+- 20230320T0049 After comparing the notebooks provided by the sources I found plus the ones I create within VS Code and Google Colab, I have found the minimum requirements to make Google Colab recognize the notebook as a Julia notebook.
