@@ -37,3 +37,5 @@ Log:
 - 20230320T0049 After comparing the notebooks provided by the sources I found plus the ones I create inside VS Code and Google Colab, I have found the minimum requirements to make Google Colab recognize the notebook as a Julia notebook.
 - T0107 Since for the course I do not need it, GPU support is not present in the template. Refer to the sources if it is needed.
 - T0221 Points 3, 4 and 5 are completed. The only difference with what I planned is in point 4 because I did not know that a specific notebook structure is needed to work with Julia in Google Colab. This is not a problem, since I needed to adapt the notebook metadata, following the template.
+- T0235 Test on Google Colab: load notebook from GitHub, install Julia, execute something in Julia, save changes to GitHub with the built-in functionality of Google Colab. Everything worked as expected, I am ready to use it for real purposes (and that is when the real testing begins).
+- T0238 Made a final commit, but before mergint the branch I want to organize the notes in this README.
