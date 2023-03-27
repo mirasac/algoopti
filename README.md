@@ -11,6 +11,7 @@ This repository exists just as an effective way to save the code while the exerc
 Files related to a particular problem are contained in a directory with name `Problem_n` where n is the number corresponding to the problem at the time of creation of the directory. This numbering comes from the problem list on professor's LaTeX notes, so it could go out of sync with the real numbering on the notes at any time. To provide consistency, the following list associates numbers to problems permanently and it is updated each time a new problem is inserted in the repository:
 
 - 3 Sierpinski’s triangle
+- 28 Linear max-convolutions
 - 35 Making a difference
 
 ## Programming environment
@@ -38,7 +39,7 @@ I can use Google Colab to use Julia notebooks stored in this repository. The tri
 
 - __To save back to GitHub__ the changes applied to a notebook on Google Colab, choose to save a copy to GitHub, then specify the destination path in the repository and a commit message, which will be added to the Git history of the file. Changes are pushed by the same GitHub account whose access is granted to Google Colab, but they are not signed.
 
-- __To create a new notebook__ in Google Colab the procedure is similar to load an existing notebook, except for point 3 which is altered as follows: the selected notebook must be `template_julia.ipynb` (or it can be opened by clicking on the badge "Open in Colab" present in the notebook), then soon after it is loaded it must be saved back to the repository with a different name.
+- __To create a new notebook__ in Google Colab the procedure is similar to load an existing notebook, except for point 3 which is altered as follows: the selected notebook must be `template_julia.ipynb` (or it can be opened by clicking on the badge "Open in Colab" present in the notebook, remember to update the filename in the badge URL for the new notebook), then soon after it is loaded it must be saved back to the repository with a different name.
 
 __Notebook recovery__
 If for any chance a notebook ceases to be identified as a Julia notebook (e.g. because on Google Colab the kernel has been changes to Python), its condition can be restored by changing the notebook metadata. Simply compare the raw source of the file (Jupyter notebooks are JSON files) with `template_julia.ipynb` and restore the values which happen to be different in key `kernelspec`.
