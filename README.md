@@ -46,7 +46,7 @@ If for any chance a notebook ceases to be identified as a Julia notebook (e.g. b
 ### Cloud fallback plan
 If for some reason Google Colab can not be used to work on Julia notebooks, website [Binder](https://mybinder.org/) can load this repository and access its content on a cloud VM. File `Project.toml` is mandatory for this task because it instructs Binder on the environment to set up. If a different Julia version is chosen, it must be updated also in this file at the key `julia` of section `[comp]`.
 
-After the environment is loaded in Binder, successive changes in the repository are not reflected there. To circumvent the problem, Git can be used inside the Binder environment to pull the latest changes, since the repository is public.
+After the environment is loaded in Binder, successive changes in the repository are not reflected there. To circumvent the problem, Git can be used inside the Binder environment to pull the latest changes, since the repository is public. Shell script `pull_branch.sh` is a reminder of this detail.
 Saving changes back to Git is more convoluted since it is necessary to download them locally first (to avoid privacy and security issues in a direct connection through Git).
 
 Click on the following badge to load the `main` branch of this repository on Binder:
