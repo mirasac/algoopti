@@ -10,9 +10,9 @@ This repository exists just as an effective way to save the code while the exerc
 ## Repository structure
 Files related to a particular problem are contained in a directory with name `Problem_n` where n is the number corresponding to the problem at the time of creation of the directory. This numbering comes from the problem list on professor's LaTeX notes, so it could go out of sync with the real numbering on the notes at any time. To provide consistency, the following list associates numbers to problems permanently and it is updated each time a new problem is inserted in the repository:
 
-- 3 Sierpinski’s triangle
-- 28 Linear max-convolutions
-- 35 Making a difference
+- 003 Sierpinski’s triangle
+- 028 Linear max-convolutions
+- 035 Making a difference
 
 ## Programming environment
 During lesson code is written in Julia, but in this repository both Python and Julia are present (since I am new to Julia language).
